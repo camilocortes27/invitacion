@@ -12,7 +12,7 @@ export default function Regalo() {
       }}
     >
       <img
-        src="/img/5a-01.png"
+        src="/img/5a-02.png"
         alt="Regalo"
         style={{ width: "100%", height: "auto", display: "block" }} // Imagen completamente responsive
       />

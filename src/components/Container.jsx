@@ -11,8 +11,9 @@ import Dress from "./Dress";
 import Regalo from "./Regalo";
 import Hoja3 from "./hoja3";
 import Hoja4 from "./hoja4";
-import Countdown from "./CuentaAtras";
+// import Countdown from "./CuentaAtras";
 import Hoja5 from "./hoja5";
+import BackgroundMusic from "./musica";
 
 
 export default function Container() {
@@ -30,6 +31,7 @@ export default function Container() {
       boxSizing: "border-box",
     }}>
       <Background />
+      <BackgroundMusic/>
       <Header />
       <Flores1 />
       <Flores2 />
