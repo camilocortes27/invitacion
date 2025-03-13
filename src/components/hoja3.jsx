@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-export default function Hoja2() {
+export default function Hoja3() {
   return (
     <motion.div
     initial={{ opacity: 0, x: -100, rotate: -30 }} // Estado inicial
@@ -14,16 +14,16 @@ export default function Hoja2() {
     }}
       style={{
         position: "absolute",
-        top: "38%", // Ajusta según la posición que desees
-        right: "42%",
+        top: "58%", // Ajusta según la posición que desees
+        left: "45%",
         width: "15%", // Ancho relativo al contenedor
         maxWidth: "150px", // Limita el ancho máximo
         zIndex: 1,
       }}
     >
       <img
-        src="/img/hojitas2.png"
-        alt="Hoja 2"
+        src="/img/hojitas.png"
+        alt="Hoja 1"
         style={{ width: "100%", height: "auto" }}
       />
     </motion.div>

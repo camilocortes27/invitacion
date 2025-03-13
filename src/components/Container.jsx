@@ -9,6 +9,11 @@ import Hoja2 from "./hoja2";
 import Direccion from "./Direccion";
 import Dress from "./Dress";
 import Regalo from "./Regalo";
+import Hoja3 from "./hoja3";
+import Hoja4 from "./hoja4";
+import Countdown from "./CuentaAtras";
+import Hoja5 from "./hoja5";
+
 
 export default function Container() {
   return (
@@ -20,8 +25,7 @@ export default function Container() {
       display: "flex",
       flexDirection: "column",
       alignItems: "center",
-      justifyContent: "center",
-      gap: "40px", // Espacio entre componentes
+      justifyContent: "center",     
       padding: "20px", // Padding para evitar que los elementos toquen los bordes
       boxSizing: "border-box",
     }}>
@@ -33,10 +37,12 @@ export default function Container() {
       <Alicia />
       <Hoja2 />
       <Direccion />
-      <Hoja1 />
+      <Hoja3 />
       <Dress />
-      <Hoja2 />
+      <Hoja4 />
+      <Countdown/>      
       <Regalo />
+      <Hoja5/>
     </div>
   );
 }

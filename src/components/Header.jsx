@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div
       style={{
-        width: "80%", // Ancho relativo al contenedor
+        width: "90%", // Ancho relativo al contenedor
         maxWidth: "600px", // Limita el ancho máximo
         textAlign: "center", // Centra el contenido
       }}
