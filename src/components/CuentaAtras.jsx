@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import '../cuentaAtras.css';
 
 const Countdown = () => {
   const calculateTimeLeft = () => {
@@ -30,7 +31,7 @@ const Countdown = () => {
     <div
       style={{
         position: "absolute",
-        top: "77%", 
+        top: "76%", 
         left: "50%",
         transform: "translate(-50%, -50%)",
         display: "flex",
@@ -42,7 +43,7 @@ const Countdown = () => {
         color: "white",
         fontSize: "clamp(1rem, 3vw, 1.5rem)", // 🔹 Ajuste de tamaño de texto responsive
         fontFamily: "Allura, cursive",
-        gap: "clamp(2px, 1.5vw, 10px)", // 🔹 Reduce espacio entre números en móviles
+        gap: "clamp(25px, 1.5vw, 10px)", // 🔹 Reduce espacio entre números en móviles
       }}
     >
       {[  

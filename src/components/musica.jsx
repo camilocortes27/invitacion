@@ -19,8 +19,7 @@ const BackgroundMusic = () => {
   return (
     <div style={{ position: "fixed", bottom: "20px", right: "20px", zIndex: 10 }}>
       <audio ref={audioRef} loop>
-      <source src="/music/sunset-piano-instrumental-10407.mp3" type="audio/mp3" />
-        
+      <source src="/music/sunset-piano-instrumental-10407.mp3" type="audio/mp3" />        
       </audio>
       <button
         onClick={togglePlay}

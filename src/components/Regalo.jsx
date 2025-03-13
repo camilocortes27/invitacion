@@ -17,6 +17,7 @@ export default function Regalo() {
         style={{ width: "100%", height: "auto", display: "block" }} // Imagen completamente responsive
       />
       <Countdown />
+      
     </div>
   );
 }

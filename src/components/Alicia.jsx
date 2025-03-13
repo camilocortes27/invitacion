@@ -12,7 +12,7 @@ export default function Alicia() {
       <img
         src="/img/2a-01.png"
         alt="Alicia"
-        style={{ width: "100%", height: "auto" }} // La imagen se ajusta al contenedor
+        style={{ width: "100%", height: "auto" }}
       />
     </div>
   );
