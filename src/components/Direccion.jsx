@@ -4,7 +4,7 @@ export default function Direccion() {
   // Función para abrir el enlace de Google Maps
   const handleClick = () => {
     window.open(
-      "https://www.google.es/maps/place/Cra+83+%23+28-90,+Medell%C3%ADn,+Bel%C3%A9n,+Medell%C3%ADn,+Antioquia,+Colombia/@6.2301177,-75.6044232,17z/data=!3m1!4b1!4m6!3m5!1s0x8e442994eac5fef1:0xab3b6e570553ee78!8m2!3d6.2301124!4d-75.6018483!16s%2Fg%2F11t86d81d9?hl=es&entry=ttu&g_ep=EgoyMDI1MDMxMC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D",
+      "https://www.google.es/maps/place/Mi+casa+campestre+sal%C3%B3n+citrino/@6.2301743,-75.6024548,19z/data=!4m6!3m5!1s0x8e44291bfd6a7195:0xf1f5b76be7bb4f9c!8m2!3d6.2299103!4d-75.6018405!16s%2Fg%2F11y1jywyrz?hl=es&entry=ttu&g_ep=EgoyMDI1MDMxMS4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D",
       "_blank" // Abre en una nueva pestaña
     );
   };
