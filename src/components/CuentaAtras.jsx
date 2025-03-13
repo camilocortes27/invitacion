@@ -30,42 +30,42 @@ const Countdown = () => {
     <div
       style={{
         position: "absolute",
-        top: "77%", // Ajusta este valor según la posición del cuadro en la imagen
+        top: "77%", 
         left: "50%",
         transform: "translate(-50%, -50%)",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        width: "80%", // Ajusta el ancho para que no se desborde
+        width: "90%", 
         textAlign: "center",
         zIndex: 2,
         color: "white",
-        fontSize: "clamp(1rem, 4vw, 1.5rem)", // Escala según pantalla
+        fontSize: "clamp(1rem, 3vw, 1.5rem)", // 🔹 Ajuste de tamaño de texto responsive
         fontFamily: "Allura, cursive",
+        gap: "clamp(2px, 1.5vw, 10px)", // 🔹 Reduce espacio entre números en móviles
       }}
     >
-      {/* Contenedor de tiempo */}
-      {["Días", "Horas", "Minutos"].map((label, index) => {
-        const values = [timeLeft.days, timeLeft.hours, timeLeft.minutes];
-        return (
-          <div
-            key={label}
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              flex: 1, // Hace que los elementos sean iguales en ancho
-              minWidth: "60px", // Evita que se compriman demasiado
-              gap: "clamp(5px, 2vw, 5px)"
-            }}
-          >
-            <span style={{ fontSize: "clamp(1.2rem, 5vw, 1.8rem)", fontWeight: "bold" }}>
-              {values[index]}
-            </span>
-            <span style={{ fontSize: "clamp(0.8rem, 3vw, 1rem)" }}>{label}</span>
-          </div>
-        );
-      })}
+      {[  
+        { label: "Días", value: timeLeft.days },
+        { label: "Horas", value: timeLeft.hours },
+        { label: "Minutos", value: timeLeft.minutes },
+      ].map(({ label, value }) => (
+        <div
+          key={label}
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            minWidth: "clamp(50px, 20vw, 120px)", // 🔹 Más pequeño en móviles, más grande en desktop
+            margin: "-2px",
+          }}
+        >
+          <span style={{ fontSize: "clamp(1rem, 4vw, 1.5rem)", fontWeight: "bold" }}>
+            {value}
+          </span>
+          <span style={{ fontSize: "clamp(0.7rem, 2.5vw, 1rem)" }}>{label}</span>
+        </div>
+      ))}
     </div>
   );
 };

@@ -39,8 +39,7 @@ export default function Container() {
       <Direccion />
       <Hoja3 />
       <Dress />
-      <Hoja4 />
-      <Countdown/>      
+      <Hoja4 />           
       <Regalo />
       <Hoja5/>
     </div>
