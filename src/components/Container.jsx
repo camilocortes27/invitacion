@@ -15,23 +15,25 @@ import Hoja4 from "./hoja4";
 import Hoja5 from "./hoja5";
 import BackgroundMusic from "./musica";
 
-
 export default function Container() {
   return (
-    
-    <div style={{
-      position: "relative",
-      width: "100%",
-      minHeight: "100vh",
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",     
-      padding: "20px", // Padding para evitar que los elementos toquen los bordes
-      boxSizing: "border-box",
-    }}>
+    <div
+      style={{
+        position: "absolute",
+        width: "100%",
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: "20px", // Padding para evitar que los elementos toquen los bordes
+        boxSizing: "border-box",
+        overflowX: "hidden", // Evita el desbordamiento horizontal
+        overflowY: "hidden",
+      }}
+    >
       <Background />
-      <BackgroundMusic/>
+      <BackgroundMusic />
       <Header />
       <Flores1 />
       <Flores2 />
@@ -41,9 +43,9 @@ export default function Container() {
       <Direccion />
       <Hoja3 />
       <Dress />
-      <Hoja4 />           
+      <Hoja4 />
       <Regalo />
-      <Hoja5/>
+      <Hoja5 />
     </div>
   );
 }
