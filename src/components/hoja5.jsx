@@ -17,7 +17,7 @@ export default function Hoja5() {
         top: "98%", // Ajusta según la posición que desees
         bottom: "10%",
         left: "45%",
-        width: "15%", // Ancho relativo al contenedor
+        width: "20%", // Ancho relativo al contenedor
         maxWidth: "180px", // Limita el ancho máximo
         zIndex: 1,
       }}

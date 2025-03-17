@@ -20,7 +20,7 @@ export default function Direccion() {
     >
       {/* Imagen de la dirección */}
       <img
-        src="/img/3a-01.png"
+        src="/img/3-01.png"
         alt="Dirección"
         style={{ width: "100%", height: "auto" }} // La imagen se ajusta al contenedor
       />
@@ -30,13 +30,14 @@ export default function Direccion() {
         onClick={handleClick} // Abre el enlace al hacer clic
         style={{
           position: "absolute",
-          top: "80.5%", // Ajusta según la posición del ícono en la imagen
-          left: "49%", // Ajusta según la posición del ícono en la imagen
+          top: "79%", // Ajusta según la posición del ícono en la imagen
+          left: "50%", // Ajusta según la posición del ícono en la imagen
           transform: "translate(-50%, -50%)", // Centra el área
-          width: "80px", // Ancho del área clickeable
-          height: "120px", // Alto del área clickeable
+          width: "110px", // Ancho del área clickeable
+          height: "110px", // Alto del área clickeable
           cursor: "pointer", // Cambia el cursor a una mano
           backgroundColor: "transparent", // Fondo transparente
+          
           
           
         }}

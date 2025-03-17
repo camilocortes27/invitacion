@@ -14,8 +14,8 @@ export default function Flores2() {
       }}
       style={{
         position: "absolute",
-        top: "7%", // Ajusta según la posición que desees
-        right: "70%", // Ajusta según la posición que desees
+        top: "8%", // Ajusta según la posición que desees
+        right: "75%", // Ajusta según la posición que desees
         width: "15%", // Ancho relativo al contenedor
         maxWidth: "180px", // Limita el ancho máximo
         zIndex: 2, // Encima del Header

@@ -14,9 +14,9 @@ export default function Hoja3() {
     }}
       style={{
         position: "absolute",
-        top: "58%", // Ajusta según la posición que desees
+        top: "58.3%", // Ajusta según la posición que desees
         left: "45%",
-        width: "15%", // Ancho relativo al contenedor
+        width: "18%", // Ancho relativo al contenedor
         maxWidth: "180px", // Limita el ancho máximo
         zIndex: 1,
       }}

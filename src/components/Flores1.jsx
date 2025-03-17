@@ -14,7 +14,7 @@ export default function Flores1() {
       }}
       style={{
         position: "absolute",
-        top: "3%", // Ajusta según la posición que desees
+        top: "3.5%", // Ajusta según la posición que desees
         left: "70%", // Ajusta según la posición que desees
         width: "15%", // Ancho relativo al contenedor
         maxWidth: "180px", // Limita el ancho máximo

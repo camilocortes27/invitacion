@@ -10,7 +10,7 @@ export default function Alicia() {
       }}
     >
       <img
-        src="/img/2a-01.png"
+        src="/img/2-01.png"
         alt="Alicia"
         style={{ width: "100%", height: "auto" }}
       />

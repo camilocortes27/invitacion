@@ -20,7 +20,7 @@ export default function Dress() {
     >
       {/* Imagen del Dress */}
       <img
-        src="/img/4.png"
+        src="/img/4-01.png"
         alt="Dress"
         style={{ width: "100%", height: "auto" }} // La imagen se ajusta al contenedor
       />
@@ -30,13 +30,14 @@ export default function Dress() {
         onClick={handleClick} // Abre el formulario al hacer clic
         style={{
           position: "absolute",
-          top: "92.6%", // Ajusta según la posición del ícono en la imagen
-          left: "52%", // Ajusta según la posición del ícono en la imagen
+          top: "93.6%", // Ajusta según la posición del ícono en la imagen
+          left: "51%", // Ajusta según la posición del ícono en la imagen
           transform: "translate(-50%, -50%)", // Centra el área
-          width: "80px", // Ancho del área clickeable
-          height: "80px", // Alto del área clickeable
+          width: "110px", // Ancho del área clickeable
+          height: "100px", // Alto del área clickeable
           cursor: "pointer", // Cambia el cursor a una mano
           backgroundColor: "transparent", // Fondo transparente
+        
           
           
         }}

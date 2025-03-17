@@ -10,7 +10,7 @@ export default function Header() {
       }}
     >
       <img
-        src="/img/1a.png"
+        src="/img/1-01.png"
         alt="Header"
         style={{ width: "100%", height: "auto" }} // La imagen se ajusta al contenedor
       />

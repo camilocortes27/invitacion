@@ -14,7 +14,7 @@ export default function Regalo() {
       }}
     >
       <img
-        src="/img/5a-03.png"
+        src="/img/5-01.png"
         alt="Regalo"
         style={{
           width: "100%",

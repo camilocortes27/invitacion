@@ -16,7 +16,7 @@ export default function Hoja4() {
         position: "absolute",
         top: "80%", // Ajusta según la posición que desees
         right: "42%",
-        width: "15%", // Ancho relativo al contenedor
+        width: "20%", // Ancho relativo al contenedor
         maxWidth: "180px", // Limita el ancho máximo
         zIndex: 1,
       }}
